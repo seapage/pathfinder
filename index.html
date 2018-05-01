@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" charset="UTF-8" />
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<title>Labirynt</title>
+</head>
+
+<body>
+
+    <div id="labirynt">
+        <table>
+        
+        </table>
+    </div>
+
+    <div id="prawakolumna">
+        <h2>Join to us</h2>
+        <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FSeapage%2F659028304218330&amp;width&amp;height=62&amp;colorscheme=light&amp;show_faces=false&amp;header=true&amp;stream=false&amp;show_border=true&amp;appId=323711251167375" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:62px;" allowTransparency="true"></iframe>
+        <h3>How it works</h3>
+        <ul>
+            <li>Select start place</li>
+            <li>Select finish place</li>
+            <li>Build walls</li>
+            <a id="sprawdz" onclick="sprawdzdroge()">
+                Find path
+            </a>
+        </ul>
+        
+        
+        
+    </div>
+    
+</body>
+    <script src="./script.js"></script>
+    <script>
+        
+        var tablica = [3,2,2,1,4];
+        var kopiaTablicy = kopiatablicy(tablica);
+        var kopiaTablicy_2 = kopiatablicy(tablica);
+        kopiaTablicy_2.push(0);
+        kopiaTablicy.sort();
+    
+    </script>
+</html>
